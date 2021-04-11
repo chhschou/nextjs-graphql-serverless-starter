@@ -1,5 +1,5 @@
 import { Resolver, Arg, Query } from 'type-graphql';
-import { User } from '../schema/user.gql.obj';
+import { User } from '../schema';
 
 @Resolver(User)
 export class UserResolver {
